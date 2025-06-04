@@ -1,0 +1,192 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Riya's Website</title>
+    <link rel="stylesheet" href="style.css">
+     <link rel="icon" href="web.jpg" type="image/png" />
+
+
+</head>
+
+<body>
+
+    <nav>
+        <div class="left-section">
+            <div class="logo">Riya Bhatnagar</div>
+        </div>
+            <ul id="nav-links">
+                <li><a href="#about">About</a></li>
+                <li><a href="#services">Services</a></li>
+                <li><a href="#skills">Skills</a></li>
+                <li><a href="#projects">Projects</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+
+        <div class="right-section">
+            <button id="mode-toggle" aria-label="Toggle day/night mode" title="Toggle Day/Night Mode"
+                style="background:none; border:none; cursor:pointer; font-size:1.5rem; color:#00c8ff;">
+                ☼
+            </button>
+            <button id="hamburger" aria-label="Toggle Menu">
+                <span class="bar"></span>
+                <span class="bar"></span>
+                <span class="bar"></span>
+            </button>
+        </div>
+        </nav>
+        <header>
+            <h1>Riya Bhatnagar | Passionate About Tech, Focused on Growth</h1>
+            <p>I’m a tech enthusiast and BCA student at Manipal University Jaipur with a strong interest in web
+                development
+                and emerging technologies. I’m passionate about building meaningful digital experiences and constantly
+                exploring new tools, frameworks, and innovations in full-stack development. With a focus on continuous
+                learning and real-world application, I enjoy working on projects that challenge me to grow and push the
+                boundaries of what I can create.</p>
+            <button onclick="document.getElementById('contact').scrollIntoView({behavior:'smooth'})">Get In
+                Touch</button>
+        </header>
+
+        <section id="about">
+            <div class="about-container">
+                <h2 class="typing-text">The Developer in Progress</h2>
+                <p>Every line of code I write brings me closer to the developer I aspire to be. I’m not just learning to
+                    build websites. I’m learning to build meaningful, inclusive, and impactful digital experiences</p>
+            </div>
+        </section>
+
+
+        <section class="services-section">
+            <h2 class="services-heading">How I Can Help</h2>
+            <div id="services">
+                <div class="service-card">
+                    <h3>Web Development</h3>
+                    <p>Building responsive and accessible websites using modern technologies. I focus on clean design,
+                        usability, and functionality..</p>
+                </div>
+                <div class="service-card">
+                    <h3>Frontend Design</h3>
+                    <p>Creating user-friendly interfaces with an emphasis on layout, visuals, and user experience using
+                        HTML, CSS, and modern frameworks.</p>
+                </div>
+                <div class="service-card">
+                    <h3>Project Collaboration</h3>
+                    <p>Open to collaborating on tech projects or student initiatives. I bring a curious mindset and a
+                        willingness to learn and contribute.</p>
+                </div>
+            </div>
+        </section>
+
+       <section id="skills" style="padding: 50px 20px; background:#20016f; color:rgb(244, 176, 225);">
+  <h2 style="text-align:center; margin-bottom:30px;">My Skills</h2>
+
+  <div class="skill">
+    <label for="html-bar">HTML</label>
+    <div class="progress-container">
+      <div id="html-bar" class="progress-bar" data-width="100%"></div>
+    </div>
+  </div>
+
+  <div class="skill">
+    <label for="css-bar">CSS</label>
+    <div class="progress-container">
+      <div id="css-bar" class="progress-bar" data-width="80%"></div>
+    </div>
+  </div>
+
+  <div class="skill">
+    <label for="js-bar">JavaScript</label>
+    <div class="progress-container">
+      <div id="js-bar" class="progress-bar" data-width="70%"></div>
+    </div>
+  </div>
+</section>
+
+
+
+
+        <section class="projects-section">
+            <h2 class="projects-heading">Code & Creations</h2>
+            <div id="projects">
+                <div class="project-card">
+                    <h3>RIVO-The Robo Speaker</h3>
+                    <p> Python Robo Speaker
+                        A Python-based Robo Speaker project using pyttsx3 for text-to-speech capabilities. It features
+                        interactive voice responses and demonstrates basic speech synthesis and simple conversational
+                        interactions built with Python.</p>
+                </div>
+                <div class="project-card">
+                    <h3>Portfolio Website</h3>
+                    <p>A sleek, responsive portfolio website that highlights my technical skills, key projects, and
+                        growth
+                        as a developer. Designed with a clean, modern aesthetic and accessibility in mind, it offers
+                        smooth
+                        navigation and a seamless user experience across all devices.
+
+                    </p>
+                </div>
+                <div class="project-card">
+                    <h3> AI-Enabled Virtual Laboratory Simulation Platform (In Progress)</h3>
+                    <p>An accessibility-focused platform designed to simulate laboratory experiments virtually, aiming
+                        to
+                        provide real-time feedback and inclusive learning experiences. This ongoing project combines web
+                        development with AI integration.</p>
+                </div>
+            </div>
+        </section>
+
+
+        <section id="contact"
+            style="padding: 50px 20px; background:#3b006b; color:rgb(245, 202, 255); text-align:center;">
+            <h2>Let’s Connect</h2>
+            <div class="contact-cards">
+                <a href="mailto:riyabhatnagar19@gmail.com" class="contact-card" target="_blank"
+                    rel="noopener noreferrer" aria-label="Email">
+                    <img src="https://cdn-icons-png.flaticon.com/512/732/732200.png" alt="Email icon" />
+                    <p></p>
+                </a>
+                <a href="https://linkedin.com/in/riyabhatnagar1904" class="contact-card" target="_blank"
+                    rel="noopener noreferrer" aria-label="LinkedIn">
+                    <img src="https://cdn-icons-png.flaticon.com/512/174/174857.png" alt="LinkedIn icon" />
+                    <p></p>
+                </a>
+                <a href="https://github.com/riyabhatnagar04" class="contact-card" target="_blank"
+                    rel="noopener noreferrer" aria-label="GitHub">
+                    <img src="https://cdn-icons-png.flaticon.com/512/733/733553.png" alt="GitHub icon" />
+                    <p></p>
+                </a>
+
+            </div>
+
+        </section>
+
+        <section id="logo-scroll" aria-label="Scrolling logos" style="background:#4f007c; padding: 20px 0;">
+            <div class="scroll-wrapper">
+                <div class="scroll-track">
+                    <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/html5/html5-original.svg" alt="HTML" />
+                    <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/css3/css3-original.svg" alt="CSS" />
+                    <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/javascript/javascript-original.svg"
+                        alt="JS" /> ●
+                    <!-- Repetetion -->
+                    <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/html5/html5-original.svg" alt="HTML" />
+                    <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/css3/css3-original.svg" alt="CSS" />
+                    <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/javascript/javascript-original.svg"
+                        alt="JS" />
+                </div>
+            </div>
+
+            </div>
+            </div>
+        </section>
+
+
+        <footer>
+            &copy; 2025 Riya Bhatnagar.
+            Coded With Passion.
+        </footer>
+        <script src="script.js"></script>
+</body>
+
+</html>
